@@ -1,16 +1,20 @@
 PODS:
   - Alamofire (5.4.1)
+  - WeScan (1.7.0)
 
 DEPENDENCIES:
   - Alamofire (~> 5.2)
+  - WeScan (>= 0.9)
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - WeScan
 
 SPEC CHECKSUMS:
   Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  WeScan: fed582f6c38014d529afb5aa9ffd1bad38fc72b7
 
-PODFILE CHECKSUM: 4dee08bd91d5a455e92e36353ca33554e53a4372
+PODFILE CHECKSUM: fbaaa760ecc546dc8af371a6390a7db90ec0ae68
 
 COCOAPODS: 1.10.1
