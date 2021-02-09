@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		96943BF6388698AF351C3154 /* Pods_ScannerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0300558B37DB601BA3B0A500 /* Pods_ScannerTests.framework */; };
+		A28A2B9225D2C38B0012CDC0 /* ImageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28A2B9125D2C38B0012CDC0 /* ImageTableViewController.swift */; };
+		A28A2B9C25D2C3C90012CDC0 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28A2B9B25D2C3C90012CDC0 /* AccountViewController.swift */; };
 		A2B2670B25D17ED400E97F1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B2670A25D17ED400E97F1C /* AppDelegate.swift */; };
 		A2B2670D25D17ED400E97F1C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B2670C25D17ED400E97F1C /* SceneDelegate.swift */; };
-		A2B2670F25D17ED400E97F1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B2670E25D17ED400E97F1C /* ViewController.swift */; };
+		A2B2670F25D17ED400E97F1C /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B2670E25D17ED400E97F1C /* ScanViewController.swift */; };
 		A2B2671225D17ED400E97F1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B2671025D17ED400E97F1C /* Main.storyboard */; };
 		A2B2671425D17ED500E97F1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B2671325D17ED500E97F1C /* Assets.xcassets */; };
 		A2B2671725D17ED500E97F1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B2671525D17ED500E97F1C /* LaunchScreen.storyboard */; };
@@ -43,10 +45,12 @@
 		1A7D718F310A35E738014D0A /* Pods-Scanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scanner.debug.xcconfig"; path = "Target Support Files/Pods-Scanner/Pods-Scanner.debug.xcconfig"; sourceTree = "<group>"; };
 		5D01D35FA9E55BAF059A71F0 /* Pods_Scanner_ScannerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scanner_ScannerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A009BB05BA9D9CD43A44EB96 /* Pods-Scanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scanner.release.xcconfig"; path = "Target Support Files/Pods-Scanner/Pods-Scanner.release.xcconfig"; sourceTree = "<group>"; };
+		A28A2B9125D2C38B0012CDC0 /* ImageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewController.swift; sourceTree = "<group>"; };
+		A28A2B9B25D2C3C90012CDC0 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		A2B2670725D17ED400E97F1C /* Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B2670A25D17ED400E97F1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2B2670C25D17ED400E97F1C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A2B2670E25D17ED400E97F1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2B2670E25D17ED400E97F1C /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 		A2B2671125D17ED400E97F1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2B2671325D17ED500E97F1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2B2671625D17ED500E97F1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -104,6 +108,43 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		A28A2B9625D2C39A0012CDC0 /* Entrypoint */ = {
+			isa = PBXGroup;
+			children = (
+				A2B2670A25D17ED400E97F1C /* AppDelegate.swift */,
+				A2B2670C25D17ED400E97F1C /* SceneDelegate.swift */,
+			);
+			path = Entrypoint;
+			sourceTree = "<group>";
+		};
+		A28A2B9A25D2C3AB0012CDC0 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A28A2B9125D2C38B0012CDC0 /* ImageTableViewController.swift */,
+				A2B2670E25D17ED400E97F1C /* ScanViewController.swift */,
+				A28A2B9B25D2C3C90012CDC0 /* AccountViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		A28A2BA325D2C3D80012CDC0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A2B2671025D17ED400E97F1C /* Main.storyboard */,
+				A2B2671525D17ED500E97F1C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A28A2BA425D2C3E50012CDC0 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A2B2671325D17ED500E97F1C /* Assets.xcassets */,
+				A2B2671825D17ED500E97F1C /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		A2B266FE25D17ED400E97F1C = {
 			isa = PBXGroup;
 			children = (
@@ -129,13 +170,10 @@
 		A2B2670925D17ED400E97F1C /* Scanner */ = {
 			isa = PBXGroup;
 			children = (
-				A2B2670A25D17ED400E97F1C /* AppDelegate.swift */,
-				A2B2670C25D17ED400E97F1C /* SceneDelegate.swift */,
-				A2B2670E25D17ED400E97F1C /* ViewController.swift */,
-				A2B2671025D17ED400E97F1C /* Main.storyboard */,
-				A2B2671325D17ED500E97F1C /* Assets.xcassets */,
-				A2B2671525D17ED500E97F1C /* LaunchScreen.storyboard */,
-				A2B2671825D17ED500E97F1C /* Info.plist */,
+				A28A2B9625D2C39A0012CDC0 /* Entrypoint */,
+				A28A2B9A25D2C3AB0012CDC0 /* Screens */,
+				A28A2BA325D2C3D80012CDC0 /* Storyboards */,
+				A28A2BA425D2C3E50012CDC0 /* SupportingFiles */,
 			);
 			path = Scanner;
 			sourceTree = "<group>";
@@ -406,8 +444,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2B2670F25D17ED400E97F1C /* ViewController.swift in Sources */,
+				A2B2670F25D17ED400E97F1C /* ScanViewController.swift in Sources */,
+				A28A2B9C25D2C3C90012CDC0 /* AccountViewController.swift in Sources */,
 				A2B2670B25D17ED400E97F1C /* AppDelegate.swift in Sources */,
+				A28A2B9225D2C38B0012CDC0 /* ImageTableViewController.swift in Sources */,
 				A2B2670D25D17ED400E97F1C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -587,7 +627,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6Y9R2FT748;
-				INFOPLIST_FILE = Scanner/Info.plist;
+				INFOPLIST_FILE = Scanner/SupportingFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -608,7 +648,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6Y9R2FT748;
-				INFOPLIST_FILE = Scanner/Info.plist;
+				INFOPLIST_FILE = Scanner/SupportingFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
