@@ -7,7 +7,7 @@ Project is an iOS app. Code follows [Raywenderlich][RW] style guide. Lint are us
 
 ## Dependencies
 
-Thrid party framewoks and Library are managed using Cocoapods.
+Thrid party framewoks and libraries are managed using Cocoapods dependency manager.
 
 ## Requirements
 
