@@ -3,7 +3,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 # Doc Scanner iOS
-Project is an iOS app. Code follows [Raywenderlich][RW] style guide. Lint are used before sending pull request. [SwiftLint][SL] autocorrect is used along with [Tailor][TL].
+Project is an iOS app. Code follows [Raywenderlich][RW] style guide. Lint are used before sending pull request. [SwiftLint][SL] autocorrect is used.
 
 ## Dependencies
 
@@ -41,7 +41,6 @@ Thrid party framewoks and libraries are managed using Cocoapods dependency manag
 
 [RW]: https://github.com/raywenderlich/swift-style-guide
 [SL]: https://github.com/realm/SwiftLint
-[TL]: https://tailor.sh/
 [GF]: https://www.atlassian.com/git/tutorials/comparing-workflows
 [FL]: https://fastlane.tools
 [GAN]: https://analytics.google.com/
