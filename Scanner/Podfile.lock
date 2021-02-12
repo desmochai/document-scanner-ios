@@ -1,20 +1,24 @@
 PODS:
   - Alamofire (5.4.1)
+  - ESTabBarController-swift (2.8.0)
   - WeScan (1.7.0)
 
 DEPENDENCIES:
   - Alamofire (~> 5.2)
+  - ESTabBarController-swift
   - WeScan (>= 0.9)
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - ESTabBarController-swift
     - WeScan
 
 SPEC CHECKSUMS:
   Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
   WeScan: fed582f6c38014d529afb5aa9ffd1bad38fc72b7
 
-PODFILE CHECKSUM: fbaaa760ecc546dc8af371a6390a7db90ec0ae68
+PODFILE CHECKSUM: bc364a3a2405c247be6305f63fad2b01f388398e
 
 COCOAPODS: 1.10.1

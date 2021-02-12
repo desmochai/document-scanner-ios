@@ -8,6 +8,7 @@ target 'Scanner' do
   # Pods for Scanner
   pod 'Alamofire', '~> 5.2'
   pod 'WeScan', '>= 0.9'
+  pod "ESTabBarController-swift"
 
   target 'ScannerTests' do
     inherit! :search_paths

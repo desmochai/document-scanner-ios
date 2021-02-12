@@ -28,6 +28,10 @@ extension ImageTableViewController: UITableViewDataSource {
         return 50 // TODO: Remove Hardcode
     }
     
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 75.0
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ImageCellView", for: indexPath)
         return cell
