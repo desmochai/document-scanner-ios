@@ -17,6 +17,8 @@ class ImageTableViewController: UIViewController {
         
         tableView?.dataSource = self
         tableView?.delegate = self
+        
+        print("ImageTableViewController view Controller")
     }
 }
 

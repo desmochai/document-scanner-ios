@@ -11,6 +11,8 @@ import WeScan
 class AccountViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print("AccountViewController view Controller")
     }
 }
 
